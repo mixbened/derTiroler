@@ -10,9 +10,9 @@
       </div>
       <nav class="sm:mr-20">
         <div class="flex w-auto">
-          <a class="uppercase p-2 sm:px-6 hover:text-blue-600 hover:underline transition ease-in duration-200 font-semibold text-xs sm:text-lg" href="#">Home</a>
-          <a class="uppercase p-2 sm:px-6 hover:text-blue-600 hover:underline transition ease-in duration-200 font-semibold text-xs sm:text-lg"  href="#">Aktuelle Karte</a>
-          <a class="uppercase p-2 sm:px-6 hover:text-blue-600 hover:underline transition ease-in duration-200 font-semibold text-xs sm:text-lg"  href="#">Unsere Werte</a>
+          <g-link to="/" class="uppercase p-2 sm:px-6 hover:text-blue-600 hover:underline transition ease-in duration-200 font-semibold text-xs sm:text-lg">Home</g-link>
+          <g-link to="/karte" class="uppercase p-2 sm:px-6 hover:text-blue-600 hover:underline transition ease-in duration-200 font-semibold text-xs sm:text-lg">Aktuelle Karte</g-link>
+          <g-link to="/werte" class="uppercase p-2 sm:px-6 hover:text-blue-600 hover:underline transition ease-in duration-200 font-semibold text-xs sm:text-lg">Unsere Werte</g-link>
         </div>
       </nav>
     </header>

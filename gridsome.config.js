@@ -1,5 +1,5 @@
 module.exports = {
-  siteName: "Ain't No Mountain High Enough",
+  siteName: "Café derTiroler",
   plugins: [
     {
       use: "@gridsome/source-airtable",
@@ -11,13 +11,13 @@ module.exports = {
         baseId: process.env.AIRTABLE_BASE, //required
         tables: [
           {
-            name: "Events",
-            typeName: "Event", //required - needs to match template name
+            name: "Karte",
+            typeName: "Gericht", //required - needs to match template name
             select: {}, 
             links: [], 
           },
         ],
-        tableName: "Events", 
+        tableName: "Karte", 
       },
     },
     {
@@ -36,6 +36,6 @@ module.exports = {
     }
   ],
   templates: {
-    Event: "/events/:id",
+    Gericht: "/gericht/:id",
   },
 };

@@ -5,7 +5,7 @@
       <div class="text-gray-100">
         <h5 class="text-xl text-semibold font-display">derTiroler</h5>
         <h1 class="text-4xl">Ein Stück Tirol mitten in Ehrenfeld</h1>
-        <p class="w-48 text-sm">Wir haben täglich wechselnde Angebote an Speisen und Getränken</p>
+        <p class="w-100 text-sm">Wir haben täglich wechselnde Angebote an Speisen und Getränken</p>
         <button class="my-2 bg-green-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Zur Karte</button>
       </div>
       </div>

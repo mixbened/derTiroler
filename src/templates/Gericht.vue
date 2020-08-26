@@ -25,11 +25,12 @@ export default {
 </script>
 
 <page-query>
-query Event ($id: ID!) {
-  event: event(id: $id) {
+query Gericht ($id: ID!) {
+  gericht: gericht(id: $id) {
     id
     name
     beschreibung
+    preis
   }
 }
 </page-query>
