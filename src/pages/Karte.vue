@@ -3,25 +3,29 @@
   <Layout>
     <section class="sm:m-20 m-8">
       <div class="grid grid-cols-3 gap-4">
-        <div class="text-center p-8 bg-gray-400 hover:bg-gray-300 cursor-pointer">
-          <h2 class="text-2xl font-semnibold">Getränke</h2>
+        <div class="col-span-1">
+          <g-link to="/karte-getraenke">
+            <div class="text-center p-2 sm:p-8 hover:bg-orange-300 cursor-pointer text-white hover:shadow" style="background: rgb(204, 136, 136)">
+              <h2 class="sm:text-2xl font-semibold">Getränke</h2>
+            </div>
+          </g-link>
         </div>
-        <div class="text-center p-8 bg-gray-400 hover:bg-gray-300 cursor-pointer">
-          <h2 class="text-2xl font-semnibold">Mittagessen</h2>
+        <div class="col-span-1">
+          <g-link to="/karte-mittagessen">
+            <div class="text-center p-2 sm:p-8 hover:bg-green-300 cursor-pointer text-white hover:shadow" style="background: rgb(184, 203, 177)">
+              <h2 class="sm:text-2xl font-semibold">Mittagessen</h2>
+            </div>
+          </g-link>
         </div>
-        <div class="text-center p-8 bg-gray-400 hover:bg-gray-300 cursor-pointer">
-          <h2 class="text-2xl font-semnibold">Snacks</h2>
+        <div class="col-span-1">
+          <g-link to="/karte-snacks">
+            <div class="text-center p-2 sm:p-8 hover:bg-blue-300 cursor-pointer text-white hover:shadow" style="background: rgb(247, 225, 167)">
+              <h2 class="sm:text-2xl font-semibold">Snacks</h2>
+            </div>
+          </g-link>
         </div>
       </div>
     </section>
-    <div>
-      <div v-for="(edge, index) in $page.gericht.edges" :key="edge.node.id">
-        <EventCard
-          :event="edge.node"
-          :color="hrColors[index % hrColors.length]"
-        />
-      </div>
-    </div>
   </Layout>
 </template>
 
@@ -42,23 +46,21 @@
 
 <script>
 import Layout from "~/layouts/Default.vue";
-import EventCard from "~/components/EventCard.vue";
 import InfoCard from '~/components/InfoCard.vue';
 
 export default {
   components: {
     Layout,
-    EventCard,
     InfoCard
-  },
-  data() {
-    return {
-      hrColors: [
-        "#FCB400", // Airtable Yellow
-        "#18BFFF", // Airtable Blue
-        "#D92654", // Airtable Red
-      ],
-    };
-  },
+  }
 };
 </script>
+
+<style scoped>
+.shadow {
+  box-shadow: 0 0.1rem 0.2rem rgba(0,0,0,.1), 0 0.33rem 1rem rgba(0,0,0,.15);
+}
+h2 {
+    font-family: Helvetica ;
+}
+</style>

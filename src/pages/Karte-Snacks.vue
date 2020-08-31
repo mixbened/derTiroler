@@ -1,39 +1,32 @@
 <template>
   <!-- This is the Events list Page-->
   <Layout>
-    <section class="sm:m-20 m-8">
-      <div class="grid grid-cols-3 gap-4">
-        <div class="text-center p-8 bg-gray-400 hover:bg-gray-300 cursor-pointer">
-          <h2 class="text-2xl font-semnibold">Getränke</h2>
-        </div>
-        <div class="text-center p-8 bg-gray-400 hover:bg-gray-300 cursor-pointer">
-          <h2 class="text-2xl font-semnibold">Mittagessen</h2>
-        </div>
-        <div class="text-center p-8 bg-gray-400 hover:bg-gray-300 cursor-pointer">
-          <h2 class="text-2xl font-semnibold">Snacks</h2>
-        </div>
+    <section>
+      <div class="text-center m-2 px-2">
+        <h2 class="text-5xl font-bold">Snacks</h2>
+        <p class="text-xl">Some leading and ending text here describing the dishes</p>
       </div>
     </section>
-    <div>
-      <div v-for="(edge, index) in $page.events.edges" :key="edge.node.id">
-        <EventCard
-          :event="edge.node"
-          :color="hrColors[index % hrColors.length]"
+    <section class="m-2 sm:mx-20">
+      <div v-for="(edge) in $page.gerichte.edges" :key="edge.node.id">
+        <GerichtCard
+          :gericht="edge.node"
         />
       </div>
-    </div>
+    </section>
   </Layout>
 </template>
 
 <page-query>
   query Karte {
-    gericht: allGericht (sort: { by: "date", order: ASC }){
+    gerichte: allGericht (sort: { by: "date", order: ASC }, filter: {kategorie: {eq: "Snacks"}}){
       edges {
         node{
           id
           name
           beschreibung
           preis
+          kategorie
         }
       }
     }
@@ -42,23 +35,14 @@
 
 <script>
 import Layout from "~/layouts/Default.vue";
-import EventCard from "~/components/EventCard.vue";
+import GerichtCard from "~/components/GerichtCard.vue";
 import InfoCard from '~/components/InfoCard.vue';
 
 export default {
   components: {
     Layout,
-    EventCard,
+    GerichtCard,
     InfoCard
-  },
-  data() {
-    return {
-      hrColors: [
-        "#FCB400", // Airtable Yellow
-        "#18BFFF", // Airtable Blue
-        "#D92654", // Airtable Red
-      ],
-    };
-  },
+  }
 };
 </script>

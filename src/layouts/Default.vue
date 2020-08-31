@@ -1,12 +1,14 @@
 <template>
   <div class="layout">
-    <header class="flex p-4 md:px-20  items-center justify-between">
+    <header class="flex p-4 sm:px-20  items-center justify-between">
       <div>
+        <g-link to="/">
         <g-image 
         alt="Logo derTiroler" 
         src="../assets/logo.png"
         class="w-12 sm:w-20 sm:w-32 m:w-40"  
         />
+        </g-link>
       </div>
       <nav class="sm:mr-20">
         <div class="flex w-auto">
