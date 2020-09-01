@@ -13,14 +13,14 @@
         <div class="col-span-1">
           <g-link to="/karte-mittagessen">
             <div class="text-center p-2 sm:p-8 hover:bg-green-300 cursor-pointer text-white hover:shadow" style="background: rgb(184, 203, 177)">
-              <h2 class="sm:text-2xl font-semibold">Mittagessen</h2>
+              <h2 class="sm:text-2xl font-semibold">Speisen</h2>
             </div>
           </g-link>
         </div>
         <div class="col-span-1">
           <g-link to="/karte-snacks">
             <div class="text-center p-2 sm:p-8 hover:bg-blue-300 cursor-pointer text-white hover:shadow" style="background: rgb(247, 225, 167)">
-              <h2 class="sm:text-2xl font-semibold">Snacks</h2>
+              <h2 class="sm:text-2xl font-semibold">Süßes</h2>
             </div>
           </g-link>
         </div>

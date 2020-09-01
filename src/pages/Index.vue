@@ -11,7 +11,7 @@
       </div>
     </section>
     <section>
-      <InfoCard title="Hallo Zusammen" text="Ich bin Marcel und waschechter tiroler..." button="Unsere Werte" position="left" image="~/assets/Marcel.jpg" background="#F9F4EE" />
+      <InfoCard title="Hallo Zusammen" text="Ich bin Marcel und waschechter tiroler..." button="Unsere Werte" position="left" image="https://i.ibb.co/zQjPycj/Screenshot-20200314-130041-Instagram.jpg" background="#F9F4EE" />
     </section>
 
   </Layout>
