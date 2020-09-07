@@ -6,7 +6,7 @@
           <h5 class="text-xl text-semibold font-display">derTiroler</h5>
           <h1 class="text-4xl">Ein Stück Tirol mitten in Ehrenfeld</h1>
           <p class="w-100 text-sm">Wir haben täglich wechselnde Angebote an Speisen und Getränken</p>
-          <button class="my-2 bg-green-400 hover:bg-green-300 text-white font-bold py-2 px-4 rounded">Zur Karte</button>
+          <g-link to="/karte"><button class="my-2 bg-blue-800  hover:bg-gray-700 text-white font-bold py-2 px-4 rounded">Zur Karte</button></g-link>
         </div>
       </div>
     </section>
@@ -22,7 +22,7 @@ import InfoCard from '../components/InfoCard'
 
 export default {
   metaInfo: {
-    title: 'Hello, world!'
+    title: 'Home'
   },
   components: {
     InfoCard

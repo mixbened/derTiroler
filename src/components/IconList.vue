@@ -6,10 +6,10 @@
         <g-image
         alt="Icon Image" 
         :src="image1"
-        class="w-20 m-auto" 
+        class="w-80 m-auto" 
         />
         <h4 class="text-lg font-bold py-2">{{ title1 }}</h4>
-        <p class="px-16 text-sm">{{ text1 }}</p>
+        <p class="px-4 sm:px-8 text-sm">{{ text1 }}</p>
       </div>
       <div class="col-span-1 text-center p-10">
         <g-image 
@@ -18,7 +18,7 @@
         class="w-20 m-auto" 
         />
         <h4 class="text-lg font-bold py-2">{{ title2 }}</h4>
-        <p class="px-16 text-sm">{{ text2 }}</p>
+        <p class="px-4 sm:px-8 text-sm">{{ text2 }}</p>
       </div>
       <div class="col-span-1 text-center p-10">
         <g-image 
@@ -27,7 +27,7 @@
         class="w-20 m-auto" 
         />
         <h4 class="text-lg font-bold py-2">{{ title3 }}</h4>
-        <p class="px-16 text-sm">{{ text3 }}</p>
+        <p class="px-4 sm:px-8 text-sm">{{ text3 }}</p>
       </div>
     </div>
   </section>
