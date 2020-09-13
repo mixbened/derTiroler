@@ -11,6 +11,9 @@
       </div>
     </section>
     <section>
+      <TextCard title="Überschrift" subtitle="subtitle" text="text" />
+    </section>
+    <section>
       <InfoCard title="Hallo Zusammen" text="Ich bin Marcel und waschechter tiroler..." button="Unsere Werte" position="left" image="https://i.ibb.co/zQjPycj/Screenshot-20200314-130041-Instagram.jpg" background="#F9F4EE" />
     </section>
 
@@ -19,13 +22,15 @@
 
 <script>
 import InfoCard from '../components/InfoCard'
+import TextCard from '../components/TextCard'
 
 export default {
   metaInfo: {
     title: 'Home'
   },
   components: {
-    InfoCard
+    InfoCard,
+    TextCard
   },
   data() {
     return {

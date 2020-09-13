@@ -11,6 +11,7 @@
       <div v-for="(edge) in $page.gerichte.edges" :key="edge.node.id">
         <GerichtCard
           :gericht="edge.node"
+          class="w-3/4 sm:w-1/2 m-auto"
         />
       </div>
     </section>

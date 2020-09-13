@@ -14,21 +14,21 @@
           </g-link>
         </div>
         <div class="col-span-1">
-          <g-link to="/karte-getraenke">
+          <g-link to="/karte-mittagessen">
             <div class="justify-center hover:bg-orange-300 cursor-pointer text-white hover:shadow bg-cover bg-center shadow h-48 flex items-center"  :style="{backgroundImage:`url(${image3})`}">
               <h2 class="sm:text-2xl font-semibold bg-blue-900 bg-opacity-25 w-full h-full flex items-center justify-center">Warme Speisen</h2>
             </div>
           </g-link>
         </div>
         <div class="col-span-1">
-          <g-link to="/karte-getraenke">
+          <g-link to="/karte-snacks">
             <div class="justify-center hover:bg-orange-300 cursor-pointer text-white hover:shadow bg-cover bg-center shadow h-48 flex items-center"  :style="{backgroundImage:`url(${image2})`}">
               <h2 class="sm:text-2xl font-semibold bg-blue-900 bg-opacity-25 w-full h-full flex items-center justify-center">Snacks</h2>
             </div>
           </g-link>
         </div>
         <div class="col-span-3 mt-8">
-          <g-link to="/shop">
+          <g-link to="/karte-shop">
             <div class="justify-center hover:bg-orange-300 cursor-pointer text-white hover:shadow bg-cover bg-center shadow h-48 flex items-center"  :style="{backgroundImage:`url(${image4})`}">
               <h2 class="sm:text-2xl font-semibold bg-blue-900 bg-opacity-25 w-full h-full flex items-center justify-center">Shop</h2>
             </div>

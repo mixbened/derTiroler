@@ -3,25 +3,15 @@
   <Layout>
     <section>
       <div class="text-center m-2 px-2">
-        <h2 class="text-5xl font-bold">Getränke</h2>
-        <p class="text-xl">Some leading and ending text here describing the dishes</p>
+        <h2 class="text-5xl font-bold">Der Shop</h2>
+        <p class="text-xl">Hier könnt ihr eure Lieblingsgerichte von uns bestellen</p>
       </div>
     </section>
     <section class="m-2 sm:mx-20 my-12">
-      <h4 class="w-3/4 sm:w-1/2 m-auto my-4 text-2xl border-bottom">Heißgetränke</h4>
       <div v-for="(edge) in $page.gerichte.edges" :key="edge.node.id">
         <GerichtCard
           :gericht="edge.node"
           class="w-3/4 sm:w-1/2 m-auto"
-          v-if="edge.node.unterkategorie === 'Heißgetränke'"
-        />
-      </div>
-      <h4 class="w-3/4 sm:w-1/2 m-auto my-4 text-2xl border-bottom">Kaltgetränke</h4>
-      <div v-for="(edge) in $page.gerichte.edges" :key="edge.node.id">
-        <GerichtCard
-          :gericht="edge.node"
-          class="w-3/4 sm:w-1/2 m-auto"
-          v-if="edge.node.unterkategorie === 'Kaltgetränke'"
         />
       </div>
     </section>
@@ -30,7 +20,7 @@
 
 <page-query>
   query Karte {
-    gerichte: allGericht (sort: { by: "date", order: ASC }, filter: {kategorie: {eq: "Getränke"}}){
+    gerichte: allGericht (sort: { by: "date", order: ASC }, filter: {kategorie: {eq: "Shop"}}){
       edges {
         node{
           id
@@ -38,7 +28,6 @@
           beschreibung
           preis
           kategorie
-          unterkategorie
         }
       }
     }
@@ -58,9 +47,3 @@ export default {
   }
 };
 </script>
-
-<style scoped>
-.border-bottom {
-  border-bottom: 1px solid lightgray;
-}
-</style>
