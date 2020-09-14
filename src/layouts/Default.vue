@@ -5,7 +5,7 @@
         <g-link to="/">
         <g-image 
         alt="Logo derTiroler" 
-        src="../assets/logo.png"
+        src="../assets/logo.jpg"
         class="w-12 sm:w-20 sm:w-32 m:w-40"  
         />
         </g-link>
@@ -40,8 +40,8 @@
           <div class="col-span-2">
             <p class="my-2 font-semibold text-xl">Social</p>
             <p><g-link class="hover:text-gray-600" to="/impressum">Impressum</g-link></p>
-            <p><g-link class="hover:text-gray-600" to="https://www.google.com">Instagram</g-link></p>
-            <p><g-link class="hover:text-gray-600" to="https://www.google.com">Facebook</g-link></p>
+            <p><g-link class="hover:text-gray-600" to="https://www.instagram.com/cafetiroler/">Instagram</g-link></p>
+            <p><g-link class="hover:text-gray-600" to="https://www.facebook.com/cafetiroler">Facebook</g-link></p>
           </div>
           <div class="col-span-2">
             <g-image 

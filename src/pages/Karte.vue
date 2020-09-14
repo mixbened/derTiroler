@@ -2,32 +2,35 @@
   <!-- This is the Events list Page-->
   <Layout>
     <section>
-      <TextCard title="Überschrift" subtitle="subtitle" text="text" />
+      <div class="text-center m-2 px-2">
+        <h2 class="text-5xl font-bold">Alle Produkte</h2>
+        <p class="text-xl">Schau dir an, was du in unserem Café genießen und was du bei uns bestellen kannst.</p>
+      </div>
     </section>
     <section class="sm:m-20 m-8">
       <div class="grid grid-cols-3 gap-4">
-        <div class="col-span-1">
+        <div class="col-span-3 sm:col-span-1">
           <g-link to="/karte-getraenke">
             <div class="justify-center hover:bg-orange-300 cursor-pointer text-white hover:shadow bg-cover bg-center shadow h-48 flex items-center"  :style="{backgroundImage:`url(${image1})`}">
               <h2 class="sm:text-2xl font-semibold bg-blue-900 bg-opacity-25 w-full h-full flex items-center justify-center">Getränke</h2>
             </div>
           </g-link>
         </div>
-        <div class="col-span-1">
+        <div class="col-span-3 sm:col-span-1">
           <g-link to="/karte-mittagessen">
             <div class="justify-center hover:bg-orange-300 cursor-pointer text-white hover:shadow bg-cover bg-center shadow h-48 flex items-center"  :style="{backgroundImage:`url(${image3})`}">
               <h2 class="sm:text-2xl font-semibold bg-blue-900 bg-opacity-25 w-full h-full flex items-center justify-center">Warme Speisen</h2>
             </div>
           </g-link>
         </div>
-        <div class="col-span-1">
+        <div class="col-span-3 sm:col-span-1">
           <g-link to="/karte-snacks">
             <div class="justify-center hover:bg-orange-300 cursor-pointer text-white hover:shadow bg-cover bg-center shadow h-48 flex items-center"  :style="{backgroundImage:`url(${image2})`}">
               <h2 class="sm:text-2xl font-semibold bg-blue-900 bg-opacity-25 w-full h-full flex items-center justify-center">Snacks</h2>
             </div>
           </g-link>
         </div>
-        <div class="col-span-3 mt-8">
+        <div class="col-span-3 sm:mt-8">
           <g-link to="/karte-shop">
             <div class="justify-center hover:bg-orange-300 cursor-pointer text-white hover:shadow bg-cover bg-center shadow h-48 flex items-center"  :style="{backgroundImage:`url(${image4})`}">
               <h2 class="sm:text-2xl font-semibold bg-blue-900 bg-opacity-25 w-full h-full flex items-center justify-center">Shop</h2>
@@ -35,6 +38,9 @@
           </g-link>
         </div>
       </div>
+    </section>
+    <section class="mt-32">
+      <InfoCard  height="650px" position="right" title="Unser Anspruch" text="Lies dir gerne durch, wo unsere Produkte herkommen, wie sie hergestellt werden und wie wir sie verarbeiten." button="Unsere Werte" image="http://www.pngpix.com/wp-content/uploads/2016/10/PNGPIX-COM-Coffee-Beans-PNG-Transparent-Image.png"  background="" />
     </section>
   </Layout>
 </template>
@@ -82,8 +88,5 @@ export default {
 <style scoped>
 .shadow {
   box-shadow: 0 0.1rem 0.2rem rgba(0,0,0,.1), 0 0.33rem 1rem rgba(0,0,0,.15);
-}
-h2 {
-    font-family: Helvetica ;
 }
 </style>
