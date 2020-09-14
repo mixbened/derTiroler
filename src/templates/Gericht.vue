@@ -1,7 +1,7 @@
 <template>
   <Layout>
     <h1>Events</h1>
-    {{ $page.event.name }}
+    {{ $page.gericht.name }}
   </Layout>
 </template>
 
@@ -18,7 +18,7 @@ export default {
   },
   metaInfo() {
     return {
-      title: this.$page.event.name,
+      title: this.$page.gericht.name,
     };
   },
 };
