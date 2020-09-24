@@ -7,13 +7,10 @@
       </div>
     </section>
     <section class="sm:m-20 m-8">
-      <IconList title1="Regional" title2="Nachhaltig" title3="Unbehandelt" text1="Lorem Ipsum dolor sit amet" text2="Lorem Ipsum dolor sit amet" text3="Lorem Ipsum dolor sit amet" image1="https://i.ibb.co/ZLb9FN0/icons8-veganes-essen-80.png" image2="https://i.ibb.co/bd6Vtsp/icons8-kohlenhydrate-80.png" image3="https://i.ibb.co/f8VZWWd/icons8-avocado-80.png" />
+      <IconList title1="Regional" title2="Nachhaltig" title3="Wohlfühlen" text1="Lorem Ipsum dolor sit amet" text2="Lorem Ipsum dolor sit amet" text3="Lorem Ipsum dolor sit amet" image1="https://i.ibb.co/ZLb9FN0/icons8-veganes-essen-80.png" image2="https://i.ibb.co/bd6Vtsp/icons8-kohlenhydrate-80.png" image3="https://i.ibb.co/f8VZWWd/icons8-avocado-80.png" />
     </section>
     <section class="mt-20">
       <InfoCard position="left" title="Some Title" text="Some Text" button="Click Here" image="https://i.ibb.co/SNWycW9/Screenshot-20200714-162002-Instagram.jpg"  background="#F9F4EE" height="450px" />
-    </section>
-    <section class="mt-20">
-      <TextCard title="Die Geschichte" text="Weiterer Text..." subtitle="So ist das Café entstanden"/>
     </section>
   </Layout>
 </template>

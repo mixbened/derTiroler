@@ -1,11 +1,10 @@
+
 module.exports = {
   purge: [],
   theme: {
     extend: {},
     fontFamily: {
-      'sans': ['Optima'],
-      'display': ['Bradley Hand '],
-      'body': ['Optima'],
+      'sans': ['kumbh', 'Arial', 'sans-serif'],
     }
   },
   variants: {},

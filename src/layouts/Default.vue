@@ -1,12 +1,12 @@
 <template>
   <div class="layout">
-    <header class="flex p-4 sm:px-20  items-center justify-between">
+    <header :class="{ 'bg-white': !view.atTopOfPage }" class="fixed w-full flex p-2 px-4 sm:px-20 top-0 bg-white z-50 items-center justify-between">
       <div>
         <g-link to="/">
         <g-image 
         alt="Logo derTiroler" 
         src="../assets/logo.jpg"
-        class="w-12 sm:w-20 sm:w-32 m:w-40"  
+        class="w-12 sm:w-20 sm:w-20 md:w-20"  
         />
         </g-link>
       </div>
@@ -15,11 +15,12 @@
           <g-link to="/" class="uppercase p-2 sm:px-6 hover:text-blue-600 hover:underline transition ease-in duration-200 font-semibold text-xs sm:text-lg">Home</g-link>
           <g-link to="/karte" class="uppercase p-2 sm:px-6 hover:text-blue-600 hover:underline transition ease-in duration-200 font-semibold text-xs sm:text-lg">Aktuelle Karte</g-link>
           <g-link to="/werte" class="uppercase p-2 sm:px-6 hover:text-blue-600 hover:underline transition ease-in duration-200 font-semibold text-xs sm:text-lg">Unsere Werte</g-link>
+          <g-link to="/karte-shop" class="uppercase p-2 bg-green-700 text-white sm:px-6 hover:text-blue-600 hover:underline transition ease-in duration-200 font-semibold text-xs sm:text-lg">Shop</g-link>
         </div>
       </nav>
     </header>
     <transition name="fade" appear>
-      <main>
+      <main class="mt-24">
         <slot />
       </main>
     </transition>
@@ -39,9 +40,9 @@
           </div>
           <div class="col-span-2">
             <p class="my-2 font-semibold text-xl">Social</p>
-            <p><g-link class="hover:text-gray-600" to="/impressum">Impressum</g-link></p>
-            <p><g-link class="hover:text-gray-600" to="https://www.instagram.com/cafetiroler/">Instagram</g-link></p>
-            <p><g-link class="hover:text-gray-600" to="https://www.facebook.com/cafetiroler">Facebook</g-link></p>
+            <p><g-link class="hover:text-gray-600" to="/impressum"><span class="oi" data-glyph="envelope-closed" title="Impressum" aria-hidden="true"></span> Impressum</g-link></p>
+            <p><g-link class="hover:text-gray-600" to="https://www.instagram.com/cafetiroler/"><span class="oi" data-glyph="image" title="Instagram" aria-hidden="true"></span> Instagram</g-link></p>
+            <p><g-link class="hover:text-gray-600" to="https://www.facebook.com/cafetiroler"><span class="oi" data-glyph="thumb-up" title="thumb up" aria-hidden="true"></span> Facebook</g-link></p>
           </div>
           <div class="col-span-2">
             <g-image 
@@ -64,6 +65,37 @@ query {
   }
 }
 </static-query>
+
+<script>
+export default {
+  data () {
+    return {
+        view: {
+            atTopOfPage: true
+        }
+    }
+  },
+
+  beforeMount () {
+      window.addEventListener('scroll', this.handleScroll);
+  },
+
+  methods: {
+      handleScroll(){
+          // when the user scrolls, check the pageYOffset
+          if(window.pageYOffset>0){
+              // user is scrolled
+              console.log('not on top')
+              if(this.view.atTopOfPage) this.view.atTopOfPage = false
+          }else{
+              // user is at top of page
+              console.log('top of page')
+              if(!this.view.atTopOfPage) this.view.atTopOfPage = true
+          }
+      }
+  }
+}
+</script>
 
 <style>
 </style>
