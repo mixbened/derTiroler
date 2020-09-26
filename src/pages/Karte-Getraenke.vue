@@ -8,19 +8,19 @@
       </div>
     </section>
     <section class="m-2 sm:mx-20 my-12">
-      <h4 class="w-3/4 sm:w-1/2 m-auto my-4 text-2xl border-bottom">Heißgetränke</h4>
+      <h4 class="w-full sm:w-1/2 m-auto my-4 text-2xl border-bottom">Heißgetränke</h4>
       <div v-for="(edge) in $page.gerichte.edges" :key="edge.node.id">
         <GerichtCard
           :gericht="edge.node"
-          class="w-3/4 sm:w-1/2 m-auto"
+          class="w-full sm:w-1/2 m-auto"
           v-if="edge.node.unterkategorie === 'Heißgetränke'"
         />
       </div>
-      <h4 class="w-3/4 sm:w-1/2 m-auto my-4 text-2xl border-bottom">Kaltgetränke</h4>
+      <h4 class="w-full sm:w-1/2 m-auto my-4 text-2xl border-bottom">Kaltgetränke</h4>
       <div v-for="(edge) in $page.gerichte.edges" :key="edge.node.id">
         <GerichtCard
           :gericht="edge.node"
-          class="w-3/4 sm:w-1/2 m-auto"
+          class="w-full sm:w-1/2 m-auto"
           v-if="edge.node.unterkategorie === 'Kaltgetränke'"
         />
       </div>
