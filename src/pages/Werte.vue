@@ -7,10 +7,45 @@
       </div>
     </section>
     <section class="sm:m-20 m-8">
-      <IconList title1="Regional" title2="Nachhaltig" title3="Wohlfühlen" text1="Lorem Ipsum dolor sit amet" text2="Lorem Ipsum dolor sit amet" text3="Lorem Ipsum dolor sit amet" image1="https://i.ibb.co/ZLb9FN0/icons8-veganes-essen-80.png" image2="https://i.ibb.co/bd6Vtsp/icons8-kohlenhydrate-80.png" image3="https://i.ibb.co/f8VZWWd/icons8-avocado-80.png" />
+      <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 px-0 lg:px-20">
+        <div class="col-span-1 text-center p-10">
+          <g-image
+          alt="Icon Image" 
+          src="../assets/undraw_coffee_break_j3of.svg"
+          class="w-64 m-auto" 
+          />
+          <h4 class="text-lg font-bold py-2">Nachhaltig</h4>
+          <p class="px-4 sm:px-8 text-sm">Lorem Ipsum.......</p>
+        </div>
+        <div class="col-span-1 text-center p-10">
+          <g-image 
+          alt="Icon Image" 
+          src="../assets/undraw_my_current_location_om7g.svg"
+          class="w-64 m-auto" 
+          />
+          <h4 class="text-lg font-bold py-2">Regional</h4>
+          <p class="px-4 sm:px-8 text-sm">Lorem Ipsum.......</p>
+        </div>
+        <div class="col-span-1 text-center p-10">
+          <g-image 
+          alt="Icon Image" 
+          src="../assets/undraw_Tree_swing_646s.svg"
+          class="w-64 m-auto" 
+          />
+          <h4 class="text-lg font-bold py-2">Wohlfühlen</h4>
+          <p class="px-4 sm:px-8 text-sm">Lorem Ipsum.......</p>
+        </div>
+      </div>
     </section>
-    <section class="mt-20">
-      <InfoCard position="left" title="Some Title" text="Some Text" button="Click Here" image="https://i.ibb.co/SNWycW9/Screenshot-20200714-162002-Instagram.jpg"  background="#F9F4EE" height="450px" />
+    <section>
+      <div class="w-full bg-gray-800 p-12 text-white text-center">
+        <h5 class="text-xl">Some Heading</h5>
+        <h2 class="text-4xl font-semibold">Some Heading</h2>
+        <p>Some text,, text,, </p>
+      </div>
+    </section>
+    <section class="my-20">
+      <InfoCard position="left" title="Some Title" text="Some Text" button="Click Here" image="https://i.ibb.co/SNWycW9/Screenshot-20200714-162002-Instagram.jpg" height="450px" />
     </section>
   </Layout>
 </template>

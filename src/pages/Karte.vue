@@ -39,8 +39,21 @@
         </div>
       </div>
     </section>
-    <section class="mt-32">
-      <InfoCard  height="650px" position="right" title="Unser Anspruch" text="Lies dir gerne durch, wo unsere Produkte herkommen, wie sie hergestellt werden und wie wir sie verarbeiten." button="Unsere Werte" image="http://www.pngpix.com/wp-content/uploads/2016/10/PNGPIX-COM-Coffee-Beans-PNG-Transparent-Image.png"  background="" />
+    <section class="my-32">
+      <div>
+        <div class="grid grid-cols-11">
+          <div class="col-span-11 sm:col-span-5 px-16 py-20 text-center flex items-center justify-center">
+            <div>
+              <h3 class="text-2xl font-semibold italic">Unsere Werte</h3>
+              <p class="py-4 px-4 sm:px-8 md:px-20 text-sm">dkvhsdpiovghveoiluvghmdsofmiufnwoiu</p>
+              <button class="bg-green-700  hover:bg-gray-700 text-white font-bold py-2 px-4 text-sm">Werte</button>
+            </div>
+          </div>
+          <div class="col-span-11 sm:col-span-6 flex justify-center">
+            <g-image class="w-1/2" src="../assets/undraw_eco_conscious_1y58.svg" />
+          </div>
+        </div>
+      </div>
     </section>
   </Layout>
 </template>

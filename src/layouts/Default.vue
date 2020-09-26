@@ -1,6 +1,6 @@
 <template>
   <div class="layout">
-    <header :class="{ 'bg-white': !view.atTopOfPage }" class="fixed w-full flex p-2 px-4 sm:px-20 top-0 bg-white z-50 items-center justify-between">
+    <header :class="{ 'bg-white': !view.atTopOfPage }" class="fixed w-full flex p-2 px-4 lg:px-20 top-0 bg-white z-50 items-center justify-between">
       <div>
         <g-link to="/">
         <g-image 

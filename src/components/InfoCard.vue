@@ -8,7 +8,7 @@
           <div>
             <h3 class="text-2xl font-semibold italic">{{ title }}</h3>
             <p class="p-8 text-sm">{{ text }}</p>
-            <button class="bg-blue-800 hover:bg-gray-700 text-white font-bold py-2 px-4 text-sm">{{ button }}</button>
+            <button class="bg-green-700  hover:bg-gray-700 text-white font-bold py-2 px-4 text-sm">{{ button }}</button>
           </div>
         </div>
       </div>
@@ -19,7 +19,7 @@
           <div>
             <h3 class="text-2xl font-semibold italic">{{ title }}</h3>
             <p class="py-4 px-4 sm:px-8 md:px-20 text-sm">{{ text }}</p>
-            <button class="bg-blue-800 hover:bg-gray-700 text-white font-bold py-2 px-4 text-sm">{{ button }}</button>
+            <button class="bg-green-700  hover:bg-gray-700 text-white font-bold py-2 px-4 text-sm">{{ button }}</button>
           </div>
         </div>
         <div class="col-span-11 sm:col-span-6 bg-scroll bg-center bg-cover" :style="{backgroundImage:`url(${image})`}"></div>
