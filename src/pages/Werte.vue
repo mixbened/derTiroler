@@ -45,7 +45,7 @@
       </div>
     </section>
     <section class="my-20">
-      <InfoCard position="left" title="Some Title" text="Some Text" button="Click Here" image="https://i.ibb.co/SNWycW9/Screenshot-20200714-162002-Instagram.jpg" height="450px" />
+      <InfoCard position="left" title="Some Title" text="Some Text" button="Click Here" image="https://i.ibb.co/XLhjgrv/Screenshot-20200924-104838-Instagram.jpg" height="450px" />
     </section>
   </Layout>
 </template>

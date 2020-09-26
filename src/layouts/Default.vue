@@ -12,10 +12,10 @@
       </div>
       <nav class="sm:mr-20">
         <div class="flex w-auto">
-          <g-link to="/" class="uppercase px-1 py-2 sm:px-6 hover:text-blue-600 hover:underline transition ease-in duration-200 sm:font-semibold text-xs sm:text-lg">Home</g-link>
-          <g-link to="/karte" class="uppercase px-1 py-2 sm:px-6 hover:text-blue-600 hover:underline transition ease-in duration-200 sm:font-semibold text-xs sm:text-lg">Aktuelle Karte</g-link>
-          <g-link to="/werte" class="uppercase px-1 py-2 sm:px-6 hover:text-blue-600 hover:underline transition ease-in duration-200 sm:font-semibold text-xs sm:text-lg">Unsere Werte</g-link>
-          <g-link to="/karte-shop" class="uppercase px-1 py-2 bg-green-700 text-white sm:px-6 hover:text-blue-600 hover:underline transition ease-in duration-200 font-semibold text-xs sm:text-lg">Shop</g-link>
+          <g-link to="/" class="uppercase px-1 py-2 sm:px-6 hover:text-green-700 hover:underline transition ease-in duration-200 sm:font-semibold text-xs sm:text-lg">Home</g-link>
+          <g-link to="/karte" class="uppercase px-1 py-2 sm:px-6 hover:text-green-700 hover:underline transition ease-in duration-200 sm:font-semibold text-xs sm:text-lg">Aktuelle Karte</g-link>
+          <g-link to="/werte" class="uppercase px-1 py-2 sm:px-6 hover:text-green-700 hover:underline transition ease-in duration-200 sm:font-semibold text-xs sm:text-lg">Unsere Werte</g-link>
+          <g-link to="/karte-shop" class="uppercase px-1 py-2 bg-green-700 text-white sm:px-6 hover:bg-gray-800 hover:underline transition ease-in duration-200 font-semibold text-xs sm:text-lg">Shop</g-link>
         </div>
       </nav>
     </header>
@@ -46,9 +46,9 @@
           </div>
           <div class="col-span-2 sm:col-span-2">
             <g-image 
-            alt="Logo derTiroler" 
+            alt="Footer Image" 
             src="https://i.ibb.co/TBGMn2n/Screenshot-20200301-191827-Instagram.jpg"
-            class=""  
+            class="rounded"  
             />          
           </div>
         </div>

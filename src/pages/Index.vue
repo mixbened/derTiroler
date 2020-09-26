@@ -6,14 +6,14 @@
         </video>
         <div class="overlay flex items-center justify-center z-10">
           <div>
-            <h3 class="z-50 text-white italic">Köln Ehrenfeld</h3>
+            <h3 class="z-50 text-white italic" style="font-family: 'Lobster'">Köln Ehrenfeld</h3>
             <h2 class="z-50 text-white text-5xl font-bold border-title">Der Tiroler</h2>
           </div>
         </div>
     </section>
     <section class="mt-20">
       <div class="px-4 sm:px-20 md:px-32 lg:px-64">
-        <h5 class="italic">DerTiroler</h5>
+        <h5 class="italic" style="font-family: 'Lobster'">DerTiroler</h5>
         <h2 class="text-3xl font-semibold">Ein Stück Tirol mitten in Ehrenfeld</h2>
         <p>Alle Produkte beim "Tiroler" kommen aus Tirol und der Kölner Region. Von mir mit viel Mühe und Liebe ausgewählte Kleinbetriebe oder selbst gemacht.</p>
       </div>
@@ -65,6 +65,7 @@ export default {
 </script>
 
 <style>
+
 
 .banner-height {
   height: 500px;
