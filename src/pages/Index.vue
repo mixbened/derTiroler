@@ -32,13 +32,33 @@
       <div class="px-4 sm:px-20 md:px-32 lg:px-64">
         <div class="w-full sm:w-2/3">
           <h2 class="text-3xl font-semibold">Wohlfühlen & Genießen</h2>
-          <p>Im Café Tiroler bieten wir neben spitzen Kaffee auch ein breites Angebot an herzhaften und süßen Speisen. Schaut auf unserer Karte vorbei oder kommt mit einem besonderen Wunsch auf uns zu.</p>
+          <p class="text-justify">Im Café Tiroler bieten wir neben spitzen Kaffee auch ein breites Angebot an herzhaften und süßen Speisen. Schaut auf unserer Karte vorbei oder kommt mit einem besonderen Wunsch auf uns zu.</p>
           <button class="my-4 bg-green-700  hover:bg-gray-800 text-white font-bold py-2 px-4 text-sm">Zur Karte</button>
         </div>
       </div>
     </section>
-    <section class="mt-20">
-      <InfoCard title="Hallo Zusammen" text="Ich bin Marcel und waschechter tiroler..." button="Unsere Werte" position="left" image="https://i.ibb.co/ww24N95/IMG-20200410-122726-827.jpg" background="#F9F4EE" height="600px"/>
+    <section class="mt-20 text-right">
+      <div class="py-8 px-4 sm:px-20 md:px-32 lg:px-64 flex justify-end">
+        <div class="w-full sm:w-2/3">
+          <h2 class="text-3xl font-semibold">Für zu Hause</h2>
+          <p>
+              Wir verschicken unsere Leckereine und Gerichte aus dem Café gerne zu euch nach Hause. Zudem gibt es immer wieder Specials
+              <!-- <ul  class="w-full">
+                  <li>Tiroler Geschenkkorb</li><hr>
+                  <li>Tiroler Geschenkkorb</li><hr>
+                  <li>Tiroler Geschenkkorb</li><hr>
+                  <li>Tiroler Geschenkkorb</li><hr>
+                  <li>Tiroler Geschenkkorb</li>
+              </ul> -->
+          </p>
+          <button class="my-4 bg-green-700  hover:bg-gray-800 text-white font-bold py-2 px-4 text-sm">Zum Shop</button>
+        </div>
+      </div>
+    </section>
+    <section class="mt-20 mb-20">
+      <div class="py-8 px-4 sm:px-20 md:px-32 lg:px-64">
+        <InfoCard title="Hallo Zusammen" text="Ich bin Marcel und waschechter tiroler..." button="Unsere Werte" position="left" image="https://i.ibb.co/ww24N95/IMG-20200410-122726-827.jpg" background="transparent" height="600px" link="/werte"/>
+      </div>
     </section>
 
   </Layout>
@@ -90,4 +110,15 @@ export default {
   border-top: 2px solid white;
   border-bottom: 2px solid white;
 }
+li {
+  padding: 3% 0;
+}
+li:first-child{
+  padding-top: 5%;
+}
+li:last-child{
+  border: none;
+}
+
+
 </style>
