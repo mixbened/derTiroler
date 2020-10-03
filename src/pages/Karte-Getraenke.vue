@@ -8,20 +8,52 @@
       </div>
     </section>
     <section class="m-2 sm:mx-20 my-12">
-      <h4 class="w-full sm:w-1/2 m-auto my-4 text-2xl border-bottom">Heißgetränke</h4>
+      <h4 class="w-full sm:w-1/2 m-auto my-4 mt-8 text-2xl border-bottom" style="font-family: 'Lobster'">Aus dem Siebträger</h4>
       <div v-for="(edge) in $page.gerichte.edges" :key="edge.node.id">
         <GerichtCard
           :gericht="edge.node"
           class="w-full sm:w-1/2 m-auto"
-          v-if="edge.node.unterkategorie === 'Heißgetränke'"
+          v-if="edge.node.unterkategorie === 'Aus dem Siebträger'"
         />
       </div>
-      <h4 class="w-full sm:w-1/2 m-auto my-4 text-2xl border-bottom">Kaltgetränke</h4>
+      <h4 class="w-full sm:w-1/2 m-auto my-4 mt-12 text-2xl border-bottom" style="font-family: 'Lobster'">Aus dem Filter</h4>
       <div v-for="(edge) in $page.gerichte.edges" :key="edge.node.id">
         <GerichtCard
           :gericht="edge.node"
           class="w-full sm:w-1/2 m-auto"
-          v-if="edge.node.unterkategorie === 'Kaltgetränke'"
+          v-if="edge.node.unterkategorie === 'Aus dem Filter'"
+        />
+      </div>
+      <h4 class="w-full sm:w-1/2 m-auto my-4 mt-12 text-2xl border-bottom" style="font-family: 'Lobster'">Anderes Heißes</h4>
+      <div v-for="(edge) in $page.gerichte.edges" :key="edge.node.id">
+        <GerichtCard
+          :gericht="edge.node"
+          class="w-full sm:w-1/2 m-auto"
+          v-if="edge.node.unterkategorie === 'Anderes Heißes'"
+        />
+      </div>
+      <h4 class="w-full sm:w-1/2 m-auto my-4 mt-12 text-2xl border-bottom" style="font-family: 'Lobster'">Kalte Drinks</h4>
+      <div v-for="(edge) in $page.gerichte.edges" :key="edge.node.id">
+        <GerichtCard
+          :gericht="edge.node"
+          class="w-full sm:w-1/2 m-auto"
+          v-if="edge.node.unterkategorie === 'Kalte Drinks'"
+        />
+      </div>
+      <h4 class="w-full sm:w-1/2 m-auto my-4 mt-12 text-2xl border-bottom" style="font-family: 'Lobster'">Smoothies</h4>
+      <div v-for="(edge) in $page.gerichte.edges" :key="edge.node.id">
+        <GerichtCard
+          :gericht="edge.node"
+          class="w-full sm:w-1/2 m-auto"
+          v-if="edge.node.unterkategorie === 'Smoothies'"
+        />
+      </div>
+      <h4 class="w-full sm:w-1/2 m-auto my-4 mt-12 text-2xl border-bottom" style="font-family: 'Lobster'">Frischgepresstes</h4>
+      <div v-for="(edge) in $page.gerichte.edges" :key="edge.node.id">
+        <GerichtCard
+          :gericht="edge.node"
+          class="w-full sm:w-1/2 m-auto"
+          v-if="edge.node.unterkategorie === 'Frischgepresstes'"
         />
       </div>
     </section>

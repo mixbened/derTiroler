@@ -1,16 +1,18 @@
 <template>
   <Layout>
     <section class="relative">
-        <video autoplay muted loop id="myVideo" class="w-full">
+      <div class="w-full block overflow-hidden">
+        <video autoplay muted loop id="myVideo" class="w-full scale">
           <source src="https://res.cloudinary.com/mixbened/video/upload/v1600954451/tiroler/0b517b8ed16c44c9accf5fd5b2189a98.mov" type="video/mp4">
         </video>
+      </div>
         <div class="overlay flex items-center justify-center z-10 p-4 sm:p-8 md:p-12">
           <div>
             <h3 class="z-50 text-white italic" style="font-family: 'Lobster'">Köln Ehrenfeld</h3>
             <h2 class="z-50 text-white text-5xl font-bold border-title">Der Tiroler</h2>
           </div>
         </div>
-        <div class="grid grid-cols-4 overlay flex items-end gap-8">
+        <div class="grid grid-cols-4 overlay flex items-end gap-8 pb-8">
           <g-image class="mb-2 w-3/4" src="https://i.ibb.co/V2Q62q0/TGF-Logo-4c-600.png"></g-image>
           <g-image class="mb-2 w-3/4" src="https://i.ibb.co/SPfTm87/oatly-logo-white.png"></g-image>
           <g-image class="mb-2 w-3/4" src="https://i.ibb.co/0rv2pKn/output-onlinepngtools-3.png"></g-image>
@@ -91,7 +93,9 @@ export default {
 </script>
 
 <style>
-
+.scale {
+  transform: scale(1.5);
+}
 
 .banner-height {
   height: 500px;
