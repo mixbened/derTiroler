@@ -42,11 +42,11 @@
     <section class="my-32">
       <div>
         <div class="grid grid-cols-11">
-          <div class="col-span-11 sm:col-span-5 px-16 py-20 text-center flex items-center justify-center">
+          <div class="col-span-11 sm:col-span-5 px-4 sm:px-16 py-20 text-center flex items-center justify-center">
             <div>
               <h3 class="text-2xl font-semibold italic">Unsere Werte</h3>
-              <p class="py-4 px-4 sm:px-8 md:px-20 text-sm">dkvhsdpiovghveoiluvghmdsofmiufnwoiu</p>
-              <button class="bg-green-700  hover:bg-gray-700 text-white font-bold py-2 px-4 text-sm">Werte</button>
+              <p class="py-4 px-4 sm:px-8 md:px-20 text-sm text-justify">Es scheint fast ein Fluch auf dem kleinen Laden zu liegen: In der Glasstraße in Köln-Ehrenfeld, auf dem Weg von der Haltestelle Liebigstraße zum Bahnhof Ehrenfeld, auf der rechten Seite Glasstraße  65 in einem Geschäftsraum schon viele ihr Glück versucht. Egal, ob Suppen, belegte Brötchen oder Kekse verkauft wurden: Es hat bisher nicht geklappt. Jetzt ist dort seit Anfang Februar Der Tiroler drin, hinter der Kaffeetheke steht Marcel Kleewein, der eben aus Tirol kommt. Er backt seine Kuchen selbst, bietet Smoothies an und Frühstück Mittagessen und kleine Snacks und  Tirolerspetzilitäten. Außerdem macht er Marmeladen und Sirupe selbst, die er im Café auch verkauft des Weiteren bietet er Baristakurse an . Vielleicht hat er die richtige Mischung im Angebot, um sich hier halten zu können.</p>
+              <g-link to="/werte"><button class="bg-green-700  hover:bg-gray-700 text-white font-bold py-2 px-4 text-sm">Werte</button></g-link>
             </div>
           </div>
           <div class="col-span-11 sm:col-span-6 flex justify-center">

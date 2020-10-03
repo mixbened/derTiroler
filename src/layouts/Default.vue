@@ -35,8 +35,8 @@
           </div>
           <div class="col-span-8 sm:col-span-2">
             <p class="my-2 font-semibold text-xl">Adresse</p>
-            <p class="">Mo-Fr 10:30-20:00</p>
-            <p class="">Sa-So 10:30-20:00</p>
+            <p class="">Glasstraße 65</p>
+            <p class="">50823 Köln</p>
           </div>
           <div class="col-span-8 sm:col-span-2">
             <p class="my-2 font-semibold text-xl">Social</p>
