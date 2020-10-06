@@ -4,7 +4,6 @@
     <section>
       <div class="text-center m-2 px-2">
         <h2 class="text-5xl font-bold">Mittagessen</h2>
-        <p class="text-xl">Some leading and ending text here describing the dishes</p>
       </div>
     </section>
     <section class="m-2 sm:mx-20 my-12">
