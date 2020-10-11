@@ -4,7 +4,7 @@
     <section>
       <div class="text-center m-2 px-2">
         <h2 class="text-5xl font-bold">Der Shop</h2>
-        <p class="text-xl">Hier könnt ihr eure Lieblingsgerichte bestellen</p>
+        <p class="text-xl">Diese Produkte könnt ihr bei uns im Shop bestellen</p>
       </div>
     </section>
     <section class="m-2 sm:mx-20 my-12">

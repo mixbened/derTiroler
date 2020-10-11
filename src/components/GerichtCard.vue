@@ -7,7 +7,7 @@
     </div>
     <div class="col-span-2 text-right">
       <p>{{ gericht.preis }} €</p>
-      <a v-if="gericht.kategorie === 'Shop'" href="#"><button class="my-2 bg-green-700  hover:bg-gray-700 text-white font-bold py-1 px-2 rounded">Bestellen</button></a>
+      <g-link v-if="gericht.kategorie === 'Shop'" to="/bestellen"><button class="my-2 bg-green-700  hover:bg-gray-700 text-white font-bold py-1 px-2 rounded">Bestellen</button></g-link>
     </div>
   </div>
 </template>

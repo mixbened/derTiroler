@@ -15,7 +15,7 @@
           class="w-64 m-auto" 
           />
           <h4 class="text-2xl font-bold py-2" style="font-family: 'Lobster'">Nachhaltig</h4>
-          <p class="px-4 sm:px-8 text-sm">Wir setzen auch nachhaltige Materialien und Prozesse</p>
+          <p class="px-4 sm:px-8 text-sm">Wir setzen auf nachhaltige Materialien und Prozesse</p>
         </div>
         <div class="col-span-1 text-center p-10">
           <g-image 
@@ -33,7 +33,7 @@
           class="w-64 m-auto" 
           />
           <h4 class="text-2xl font-bold py-2 mt-2" style="font-family: 'Lobster'">Wohlfühlen</h4>
-          <p class="px-4 sm:px-8 text-sm">Besucht mich in meinem Wohnzimmer und vielleicht auch eurem</p>
+          <p class="px-4 sm:px-8 text-sm">Besucht mich in meinem Wohnzimmer und vielleicht bald auch eurem</p>
         </div>
       </div>
     </section>

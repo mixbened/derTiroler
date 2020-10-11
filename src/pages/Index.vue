@@ -23,7 +23,7 @@
       <div class="px-4 sm:px-20 md:px-32 lg:px-64">
         <h5 class="italic" style="font-family: 'Lobster'">DerTiroler</h5>
         <h2 class="text-3xl font-semibold">Ein Stück Tirol mitten in Ehrenfeld</h2>
-        <p>Herzlich Willkommen im Café in Ehrenfeld | Der Tiroler! Wenn ihr auf der Suche nach einem Café in Ehrenfeld seid, in dem ihr nicht nur leckeren Kaffee von meiner eigenen biologischen Kaffeeplantage genießen könnt, sondern auch diverse Tiroler Spezialitäten zur Auswahl stehen...dann seid Ihr bei mit genau richtig! Alle Proddukte kommen entweder direkt aus Tirol oder der Kölner Region. Unzählige von mir mit viel Mühe und Liebe ausgewählte Kleinbetriebe, die ihr Handwerk mit viel Leidenschaft und ihren Job mit Liebe ausführen, machen aus Ihnen hochgeschätzte Produzenten.</p>
+        <p>Herzlich Willkommen im Café in Ehrenfeld | Der Tiroler! Wenn ihr auf der Suche nach einem Café in Ehrenfeld seid, in dem ihr nicht nur leckeren Kaffee von meiner eigenen biologischen Kaffeeplantage genießen könnt, sondern auch diverse Tiroler Spezialitäten zur Auswahl stehen...dann seid Ihr bei mit genau richtig! Alle Produkte kommen entweder direkt aus Tirol oder der Kölner Region. Unzählige von mir mit viel Mühe und Liebe ausgewählte Kleinbetriebe, die ihr Handwerk mit viel Leidenschaft und ihren Job mit Liebe ausführen, machen aus Ihnen hochgeschätzte Produzenten.</p>
       </div>
     </section>
     <section class="mt-20">

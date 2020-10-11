@@ -4,7 +4,7 @@
     <section>
       <div class="text-center m-2 px-2">
         <h2 class="text-5xl font-bold">Getränke</h2>
-        <p class="text-xl">Erfrischend, wärmend oder vitalisieren</p>
+        <p class="text-xl">Erfrischend, wärmend oder vitalisierend</p>
       </div>
     </section>
     <section class="m-2 sm:mx-20 my-12">
