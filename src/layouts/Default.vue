@@ -30,8 +30,8 @@
         <div class="grid grid-cols-8 my-4">
           <div class="col-span-8 sm:col-span-2">
             <p class="my-2 font-semibold text-xl">Öffnungszeiten</p>
-            <p class="">Mo-Fr 10:30-20:00</p>
-            <p class="">Sa-So 10:30-20:00</p>
+            <p class="">Mo-Sa 10:00-20:00 Uhr</p>
+            <p class="">So & Feiertags 10:00-20:00 Uhr</p>
           </div>
           <div class="col-span-8 sm:col-span-2">
             <p class="my-2 font-semibold text-xl">Adresse</p>

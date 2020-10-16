@@ -48,14 +48,6 @@
           v-if="edge.node.unterkategorie === 'Smoothies'"
         />
       </div>
-      <h4 class="w-full sm:w-1/2 m-auto my-4 mt-12 text-2xl border-bottom" style="font-family: 'Lobster'">Frischgepresstes</h4>
-      <div v-for="(edge) in $page.gerichte.edges" :key="edge.node.id">
-        <GerichtCard
-          :gericht="edge.node"
-          class="w-full sm:w-1/2 m-auto"
-          v-if="edge.node.unterkategorie === 'Frischgepresstes'"
-        />
-      </div>
     </section>
   </Layout>
 </template>

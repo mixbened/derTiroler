@@ -12,18 +12,21 @@
             <h2 class="z-50 text-white text-5xl font-bold border-title">Der Tiroler</h2>
           </div>
         </div>
-        <div class="grid grid-cols-4 overlay flex items-end gap-8 pb-8">
-          <g-image class="mb-2 w-3/4" src="https://i.ibb.co/V2Q62q0/TGF-Logo-4c-600.png"></g-image>
-          <g-image class="mb-2 w-3/4" src="https://i.ibb.co/SPfTm87/oatly-logo-white.png"></g-image>
-          <g-image class="mb-2 w-3/4" src="https://i.ibb.co/0rv2pKn/output-onlinepngtools-3.png"></g-image>
-          <g-image class="mb-2 w-3/4" src="https://i.ibb.co/yktVFb0/output-onlinepngtools-2.png"></g-image>
+        <div class="overlay">
         </div>
+    </section>
+    <section class="grid grid-cols-4 gap-8 flex items-center px-4">
+      <g-image class="mb-2 w-4/5" src="https://i.ibb.co/V2Q62q0/TGF-Logo-4c-600.png"></g-image>
+      <g-image class="mb-2 w-4/5" src="https://i.ibb.co/6vNVrdM/Oatly-logo.png"></g-image>
+      <g-image class="mb-2 w-4/5" src="https://i.ibb.co/0rv2pKn/output-onlinepngtools-3.png"></g-image>
+      <g-image class="mb-2 w-4/5" src="https://i.ibb.co/yktVFb0/output-onlinepngtools-2.png"></g-image>
     </section>
     <section class="mt-20">
       <div class="px-4 sm:px-20 md:px-32 lg:px-64">
         <h5 class="italic" style="font-family: 'Lobster'">DerTiroler</h5>
         <h2 class="text-3xl font-semibold">Ein Stück Tirol mitten in Ehrenfeld</h2>
         <p>Herzlich Willkommen im Café in Ehrenfeld | Der Tiroler! Wenn ihr auf der Suche nach einem Café in Ehrenfeld seid, in dem ihr nicht nur leckeren Kaffee von meiner eigenen biologischen Kaffeeplantage genießen könnt, sondern auch diverse Tiroler Spezialitäten zur Auswahl stehen...dann seid Ihr bei mit genau richtig! Alle Produkte kommen entweder direkt aus Tirol oder der Kölner Region. Unzählige von mir mit viel Mühe und Liebe ausgewählte Kleinbetriebe, die ihr Handwerk mit viel Leidenschaft und ihren Job mit Liebe ausführen, machen aus Ihnen hochgeschätzte Produzenten.</p>
+        <g-link><button class="w-full bg-orange-600 p-2 my-2 text-white rounded font-bold animate-pulse">Zum Shop</button></g-link>
       </div>
     </section>
     <section class="mt-20">
