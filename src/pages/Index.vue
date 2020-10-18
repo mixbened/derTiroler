@@ -26,16 +26,18 @@
         <h5 class="italic" style="font-family: 'Lobster'">DerTiroler</h5>
         <h2 class="text-3xl font-semibold">Ein Stück Tirol mitten in Ehrenfeld</h2>
         <p>Herzlich Willkommen im Café in Ehrenfeld | Der Tiroler! Wenn ihr auf der Suche nach einem Café in Ehrenfeld seid, in dem ihr nicht nur leckeren Kaffee von meiner eigenen biologischen Kaffeeplantage genießen könnt, sondern auch diverse Tiroler Spezialitäten zur Auswahl stehen...dann seid Ihr bei mit genau richtig! Alle Produkte kommen entweder direkt aus Tirol oder der Kölner Region. Unzählige von mir mit viel Mühe und Liebe ausgewählte Kleinbetriebe, die ihr Handwerk mit viel Leidenschaft und ihren Job mit Liebe ausführen, machen aus Ihnen hochgeschätzte Produzenten.</p>
-        <g-link><button class="w-full bg-orange-600 p-2 my-2 text-white rounded font-bold animate-pulse">Zum Shop</button></g-link>
+        <g-link to="/bestellen"><button class="w-full bg-orange-600 p-2 my-2 text-white font-bold animate-pulse">Zum Shop</button></g-link>
       </div>
     </section>
     <section class="mt-20">
       <div class="w-full p-12 px-4 sm:px-20 md:px-32 lg:px-64">
-        <div class="grid grid-cols-2 gap-4">
+        <div class="grid grid-cols-2 sm:grid-cols-3 gap-4">
           <div class="bg-cover shadow rounded bg-center w-full h-64" style="background-image: url('https://i.ibb.co/vqgCtzJ/IMG-20200603-082709-701.jpg')"></div>
           <div class="bg-cover shadow rounded bg-center w-full h-64" style="background-image: url('https://i.ibb.co/p4cdDCk/Screenshot-20200511-194201-Instagram.jpg')"></div>
           <div class="bg-cover shadow rounded bg-center w-full h-full" style="background-image: url('https://i.ibb.co/h1sCqjP/Screenshot-20200512-152231-Instagram.jpg')"></div>
+          <div class="bg-cover shadow rounded bg-center w-full h-64" style="background-image: url('https://i.ibb.co/Xzy99w7/121629517-577038619679422-5893061470602167710-n.jpg')"></div>
           <div class="bg-cover shadow rounded bg-center w-full h-64" style="background-image: url('https://i.ibb.co/J2HCD0q/Screenshot-20200624-094253-Chrome.jpg')"></div>
+          <div class="bg-cover shadow rounded bg-center w-full h-64" style="background-image: url('https://i.ibb.co/g4DgkBB/Screenshot-2020-10-18-at-17-17-58.png')"></div>
         </div>
       </div>
     </section>
@@ -44,7 +46,7 @@
         <div class="w-full sm:w-2/3">
           <h2 class="text-3xl font-semibold">Wohlfühlen & Genießen</h2>
           <p class="text-justify">Im Café Tiroler bieten wir neben spitzen Kaffee auch ein breites Angebot an herzhaften und süßen Speisen. Schaut auf unserer Karte vorbei oder kommt mit einem besonderen Wunsch auf uns zu.</p>
-          <g-link to="/karte"><button class="my-4 bg-green-700  hover:bg-gray-800 text-white font-bold py-2 px-4 text-sm">Zur Karte</button></g-link>
+          <g-link to="/karte"><button class="my-4 w-full sm:w-1/2 bg-green-700  hover:bg-gray-800 text-white font-bold py-2 px-4 text-sm">Zur Karte</button></g-link>
         </div>
       </div>
     </section>
@@ -62,7 +64,7 @@
                   <li>Tiroler Geschenkkorb</li>
               </ul> -->
           </p>
-          <g-link to="/karte-shop"><button class="my-4 bg-green-700  hover:bg-gray-800 text-white font-bold py-2 px-4 text-sm">Zum Shop</button></g-link>
+          <g-link to="/karte-shop"><button class="w-full sm:w-1/2 my-4 bg-green-700  hover:bg-gray-800 text-white font-bold py-2 px-4 text-sm">Zum Shop</button></g-link>
         </div>
       </div>
     </section>
