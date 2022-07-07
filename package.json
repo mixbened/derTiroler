@@ -10,7 +10,7 @@
     "@gridsome/source-airtable": "0.2.0",
     "axios": "^0.20.0",
     "gridsome": "^0.7.17",
-    "moment": "^2.24.0",
+    "moment": "^2.29.4",
     "typeface-poppins": "0.0.72"
   },
   "devDependencies": {
